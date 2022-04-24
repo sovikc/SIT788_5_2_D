@@ -4,7 +4,7 @@ import threading
 from azure.cognitiveservices.vision.face import FaceClient
 from msrest.authentication import CognitiveServicesCredentials
 
-subscription_key = "02a7b436fb8b451c967537ca39ebf225"
+subscription_key = "XXXXXXXXXXXXXXXXXXX"
 endpoint = "https://facedetectiontask.cognitiveservices.azure.com/"
 face_client = FaceClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
